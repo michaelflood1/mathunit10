@@ -45,9 +45,9 @@ $$\sqrt{\frac{S_1^2}{n_1}}$$ = Sample 1 variance
 - For each sample at least one must be true:
     - The sample size is large i.e. $n_1 \geq 30, \quad n_2 \geq 30$
     - The population is normal:
-        - $ \text{Range} = \text{Max} - \text{Min}$
-        - $$ \text{Standard deviation} = s = \sqrt{\frac{\sum (x_{i} - \bar{x})^2}{n - 1}}$$
-        - $$ \text{Ratio} = \frac{\text{Range}}{s}$$
+        - $\text{Range} = \text{Max} - \text{Min}$
+        - $\text{Standard deviation} = s = \sqrt{\frac{\sum (x_{i} - \bar{x})^2}{n - 1}}$
+        - $\text{Ratio} = \frac{\text{Range}}{s}$
         - If ratio $\approx$ 4 to 6, likely normal.
     - $\hat{x}$ = Mean of data
     - $x_i$ = Each individual data point in set
