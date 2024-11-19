@@ -1,60 +1,55 @@
-# Unit 10 two parameter hypothesis testing
+# Unit 10 Two-Parameter Hypothesis Testing
 
-statistical methods to detect a difference between two populations
+Statistical methods to detect a difference between two populations
 
-### difference of two population proportions
+### Difference of Two Population Proportions
 
-$p_{1} - p_{2}$
+$$p_{1} - p_{2}$$
 
-### difference of two population means
+### Difference of Two Population Means
 
-$\mu _{1} - \mu _{2}$
+$$\mu_{1} - \mu_{2}$$
 
-### $Z_{stat}$ for two proportions
+### $Z_{\text{stat}}$ for Two Proportions
 
-$Z_{stat} = \frac{\left(\hat{p}_1 - \hat{p}_2\right) - \left(p_1 - p_2\right)}{\sqrt{\bar{p}(1 - \bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$
+$$Z_{\text{stat}} = \frac{\left(\hat{p}_1 - \hat{p}_2\right) - \left(p_1 - p_2\right)}{\sqrt{\bar{p}(1 - \bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$$
 
-$\hat{p}$ = sample proportion
+$\hat{p}$ = Sample proportion
 
-$p$ = population proportion
+$p$ = Population proportion
 
-$\bar{p} = \frac{x_1 + x_2}{n_1 + n_2} = $ combined proportion of success accross both groups
+$$\bar{p} = \frac{x_1 + x_2}{n_1 + n_2}$$ = Combined proportion of success across both groups
 
-## REQUIREMENTS TO USE THE $Z_{stat} formula
+## REQUIREMENTS TO USE THE $Z_{\text{stat}}$ Formula
 
 Requirements:
--  The two random samples are from two independent populations.
+- The two random samples are from two independent populations.
 - For each sample, **both** must be true:
-    - $np \geq 5 =  (np_1 \geq 5)  (np_2 \geq 5)$
-    - $nq \geq 5 = (1 - \bar{p}_{1} \geq 5), (1- \bar{p}_{2} \geq 5)$
+    - $np \geq 5 \quad \text{or} \quad (np_1 \geq 5) \quad (np_2 \geq 5)$
+    - $nq \geq 5 \quad \text{or} \quad (1 - \bar{p}_1 \geq 5), \quad (1 - \bar{p}_2 \geq 5)$
 
 
-### $T_{stat}$ for two means
+### $T_{\text{stat}}$ for Two Means
 
-$t_{stat} = \frac {(\bar{x}_1 - \bar{x}_2) - (\mu _1 - \mu _2)}{\sqrt \frac {S_{1}^2}{n_{1}} + \frac {S_{2}^2}{n_{2}}}$
+$$t_{\text{stat}} = \frac {(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{S_1^2}{n_1} + \frac{S_2^2}{n_2}}}$$
 
-$\bar{x}_{1/2}  = \frac {sum of values in sample 1/2}{sample size of group 1/2}$ 
+$$\bar{x}_{1/2}  = \frac {\text{sum of values in sample 1/2}}{\text{sample size of group 1/2}}$$
 
-$\sqrt \frac{S_{1/2}^2}{n_{1/2}} =$ sample 1/2 variance
-
-
-## REQUIREMENTS TO USE THE $t_{stat} formula
-
-- - The two **random** samples are from two **independent** populations
-
-- - For each sample at least one must be true
-    - The sample size is large i.e $ n_{1} \geq 30, n_{2} \geq 30$
-    - the population is normal
-        - $Range = Max - Min$
-        - $standard deviation = s = \sqrt \frac{\sum (x_{i} - \bar{x})^2}{n-1}$
-        - $Ratio = \frac {Range}{s}$
-        - if ratio $\approx $ within 4 to 6
-        - likely normal
-    - $\hat{x}$ = mean of data
-    - $x_{i}$ = each individual data point in set
-    - $n$ = number of data points
-    - $\sum$ = the sum of following quantites
+$$\sqrt{\frac{S_1^2}{n_1}}$$ = Sample 1 variance
 
 
+## REQUIREMENTS TO USE THE $t_{\text{stat}}$ Formula
 
+- The two **random** samples are from two **independent** populations.
 
+- For each sample at least one must be true:
+    - The sample size is large i.e. $n_1 \geq 30, \quad n_2 \geq 30$
+    - The population is normal:
+        - $ \text{Range} = \text{Max} - \text{Min}$
+        - $$ \text{Standard deviation} = s = \sqrt{\frac{\sum (x_{i} - \bar{x})^2}{n - 1}}$$
+        - $$ \text{Ratio} = \frac{\text{Range}}{s}$$
+        - If ratio $\approx$ 4 to 6, likely normal.
+    - $\hat{x}$ = Mean of data
+    - $x_i$ = Each individual data point in set
+    - $n$ = Number of data points
+    - $\sum$ = The sum of following quantities
