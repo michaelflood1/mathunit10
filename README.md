@@ -10,7 +10,7 @@ $$p_{1} - p_{2}$$
 
 $$\mu_{1} - \mu_{2}$$
 
-### $Z_{\text{stat}}$ for Two Proportions
+## $Z_{\text{stat}}$ for Two Proportions
 
 $$Z_{\text{stat}} = \frac{\left(\hat{p}_1 - \hat{p}_2\right) - \left(p_1 - p_2\right)}{\sqrt{\bar{p}(1 - \bar{p}) \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}$$
 
@@ -20,7 +20,7 @@ $p$ = Population proportion
 
 $$\bar{p} = \frac{x_1 + x_2}{n_1 + n_2}$$ = Combined proportion of success across both groups
 
-## REQUIREMENTS TO USE THE $Z_{\text{stat}}$ Formula
+### REQUIREMENTS TO USE THE $Z_{\text{stat}}$ Formula
 
 Requirements:
 - The two random samples are from two independent populations.
@@ -29,7 +29,7 @@ Requirements:
     - $nq \geq 5 \quad \text{or} \quad (1 - \bar{p}_1 \geq 5), \quad (1 - \bar{p}_2 \geq 5)$
 
 
-### $T_{\text{stat}}$ for Two Means
+## $T_{\text{stat}}$ for Two Means
 
 $$t_{\text{stat}} = \frac {(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{S_1^2}{n_1} + \frac{S_2^2}{n_2}}}$$
 
