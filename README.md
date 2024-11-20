@@ -38,6 +38,10 @@ $$\bar{x}_{1/2}  = \frac {\text{sum of values in sample 1/2}}{\text{sample size 
 $$\sqrt{\frac{S_1^2}{n_1}}$$ = Sample 1 variance
 
 
+#### $T_{\text{stat}}$ supporting Formula
+
+$$ \text{df} = \min(n_1 - 1, n_2 - 1) \quad t_{\text{crit}} $$
+
 #### REQUIREMENTS TO USE THE $t_{\text{stat}}$ Formula
 
 - The two **random** samples are from two **independent** populations.
@@ -53,3 +57,36 @@ $$\sqrt{\frac{S_1^2}{n_1}}$$ = Sample 1 variance
     - $x_i$ = Each individual data point in set
     - $n$ = Number of data points
     - $\sum$ = The sum of following quantities
+
+
+####  determine null or alternative hypothesis
+
+---
+##### if any claim statement involves a form of equality that claim is the null hypothesis = $\geq \leq$
+
+the average students age **is** 22 mentions EQUAL
+
+---
+
+##### if the claim does not involve equality than the claim becomes the alternative hypothesis $\neq \lt \gt$
+
+**less than** 30% of canadians approve of stronger gun laws mentions LESS THAN ( inequal )
+
+---
+
+
+#### conclusion decision/wording
+
+**for null hypotheses claims**
+
+|Decision|reject null|fail to reject null|
+|--|--|--|
+|Wording|"there is sufficient evidence to reject the claim that.."|"There is insufficient evidence to reject the claim that..."|
+
+---
+
+**for alternative hypotheses claims**
+
+|Decision|reject null|fail to reject null|
+|--|--|--|
+|Wording|"there is insufficient evidence to reject the claim that.."|"There is sufficient evidence to reject the claim that..."
