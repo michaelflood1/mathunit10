@@ -62,7 +62,7 @@ $$ \text{df} = \min(n_1 - 1, n_2 - 1) \quad t_{\text{crit}} $$
 ####  determine null or alternative hypothesis
 
 ---
-##### if any claim statement involves a form of equality that claim is the null hypothesis = $\geq \leq$
+##### if any claim statement involves a form of equality that claim is the null hypothesis $\eq \geq \leq$
 
 the average students age **is** 22 mentions EQUAL
 
