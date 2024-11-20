@@ -20,7 +20,7 @@ $p$ = Population proportion
 
 $$\bar{p} = \frac{x_1 + x_2}{n_1 + n_2}$$ = Combined proportion of success across both groups
 
-### REQUIREMENTS TO USE THE $Z_{\text{stat}}$ Formula
+#### REQUIREMENTS TO USE THE $Z_{\text{stat}}$ Formula
 
 Requirements:
 - The two random samples are from two independent populations.
@@ -38,7 +38,7 @@ $$\bar{x}_{1/2}  = \frac {\text{sum of values in sample 1/2}}{\text{sample size 
 $$\sqrt{\frac{S_1^2}{n_1}}$$ = Sample 1 variance
 
 
-## REQUIREMENTS TO USE THE $t_{\text{stat}}$ Formula
+#### REQUIREMENTS TO USE THE $t_{\text{stat}}$ Formula
 
 - The two **random** samples are from two **independent** populations.
 
